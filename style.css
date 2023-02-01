@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lighgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 81px 30px;
+}
+
+.conteiner{
+    margin: auto;
+
+    height: 320px;
+    width: 500px;
+    background-color: var(--Grayishblue);
+
+}
