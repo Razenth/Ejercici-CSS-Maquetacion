@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -19,22 +23,52 @@
     --Darkblue: hsl(218, 44%, 22%);
 }
 
-.attribution a { 
+.attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
 
 body{
     display: flex;
+    flex-direction: column;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     padding: 81px 30px;
+    border: 1px solid;
+    height: 100%;
+    background-color: var(--Grayishblue);
 }
 
 .conteiner{
+    border: 1px solid;
     margin: auto;
-
     height: 320px;
     width: 500px;
-    background-color: var(--Grayishblue);
+    background-color: var(--White);
+}
 
+.conteiner_image{
+
+    width: 281px;
+    height: 290px;
+    background-image:url(./images/image-qr-code.png);
+    background-position: center;
+    background-size: contain;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.conteiner_info{
+    padding: 28px;
+    border: solid 1px;
+}
+
+.conteiner_info h1{
+    font-size: 18px;
+    text-align: center;
+}
+
+.conteiner_info p{
+    color: var(--Grayishblue);
+    font-size: 14px;
+    padding-top: 10px;
 }
