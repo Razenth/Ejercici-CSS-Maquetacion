@@ -32,38 +32,38 @@ body{
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-    padding: 81px 30px;
     border: 1px solid;
     height: 100%;
-    background-color: var(--Grayishblue);
+    background-color: var(--Lighgray);
 }
 
 .conteiner{
-    border: 1px solid;
+    margin: 81px auto;
+    padding: 15px;
+    border-radius: 15px;
     margin: auto;
-    height: 320px;
-    width: 500px;
+    height: 480px;
+    width: 320px;
     background-color: var(--White);
 }
 
 .conteiner_image{
-
-    width: 281px;
+    width: 288px;
     height: 290px;
     background-image:url(./images/image-qr-code.png);
+    justify-content: center;
     background-position: center;
     background-size: contain;
-    border: 1px solid;
     border-radius: 15px;
 }
 
 .conteiner_info{
     padding: 28px;
-    border: solid 1px;
+    text-align: center;
 }
 
 .conteiner_info h1{
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -72,3 +72,5 @@ body{
     font-size: 14px;
     padding-top: 10px;
 }
+
+@media (min-width:1400px)
